@@ -1,38 +1,59 @@
-.App {
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.dvCaixas{
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dvCaixas div{
+  display: inline-block;
+  text-align: left;
+  background-color: #cfcfcf;
+  width: 33%;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dvCaixas div:nth-child(3){
+  background-color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dvSerach{
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.dvSerach div, .dvSerach form input, .dvSerach form button{
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dvSerach form input{
+  width: 80%;
+}
+
+.dvSerach form button{
+  width: 19%;
+}
+
+.dvSerach div:nth-child(1){
+  width: 80%;
+}
+
+.dvSerach div:nth-child(2){
+  width: 19%;
+  text-align: right;
+}
+
+.dvTabela{
+  margin-top: 20px;
+}
+
+.formCadastrar{
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
